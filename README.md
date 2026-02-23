@@ -6,61 +6,55 @@
 
 **Data Analysis Report**
 
--   **Company Overview:**
+## **Company Overview:**
 
 Disney+ Hotstar (also known as Hotstar) is an Indian brand of subscription video on-demand over-the-top streaming service owned by Novi Digital Entertainment of Disney Star and operated by Disney Media and Entertainment Distribution, both divisions of The Walt Disney Company. The brand was first introduced as Hotstar for a streaming service carrying content from Disney Star's local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third-parties such as HBO and Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country with a significant 50M+ subscriber.
 
--   **Company Dissection:**
+## **Company Dissection:**
 
 Disney+ Hotstar operates on a freemium as well as subscription model. It is dissected into following ways:
 
 1.  **Content Categories**: Movies, TV Shows, Live Sports, Kids Content, International Content.
 2.  **Revenue Model:**
+    -   Subscription (Premium plans)
+    -   Advertisement-based revenue (Free users)
+    -   Sports broadcasting rights
 
--   Subscription (Premium plans)
--   Advertisement-based revenue (Free users)
--   Sports broadcasting rights
+3.  **Technology Backbone** (High-Level)
+    -   Cloud infrastructure
+    -   Content Delivery Networks (CDNs)
+    -   Adaptive bitrate streaming
+    -   AI-based recommendation engine
+    -   Real-time sports streaming infrastructure
 
-1.  **Technology Backbone** (High-Level)
-
--   Cloud infrastructure
--   Content Delivery Networks (CDNs)
--   Adaptive bitrate streaming
--   AI-based recommendation engine
--   Real-time sports streaming infrastructure
--   **Real-World Problems Solved by them:**
+##  **Real-World Problems Solved by them:**
 
 The Real-world problems solved by Disney+ Hotstar are listed below:
 
 1.  **Affordable Entertainment Access:**
 
-Problem: Traditional cable TV was costly and location-restricted.
+    Problem: Traditional cable TV was costly and location-restricted.
+    Solution:
+    -   Mobile-first streaming
+    -   Low-cost subscription plans
+    -   Regional language support
 
-Solution:
+2.  **Live Sports Accessibility**
 
--   Mobile-first streaming
--   Low-cost subscription plans
--   Regional language support
+    Problem: Sports broadcasts were limited to TV.
+    Solution:
+    -   Live IPL streaming
+    -   Multi-device access
+    -   Real-time highlights
 
-1.  **Live Sports Accessibility**
+3.  **Regional Content Availability**
 
-Problem: Sports broadcasts were limited to TV.
+    Problem: Regional audiences lacked digital access.
+    Solution:
+    -   Tamil, Telugu, Malayalam, Kannada, Hindi content
+    -   Localization strategy
 
-Solution:
-
--   Live IPL streaming
--   Multi-device access
--   Real-time highlights
-
-1.  **Regional Content Availability**
-
-Problem: Regional audiences lacked digital access.
-
-Solution:
-
--   Tamil, Telugu, Malayalam, Kannada, Hindi content
--   Localization strategy
--   **Top Features of Disney+ Hotstar**
+##  **Top Features of Disney+ Hotstar**
 
 1.  **Multi-Language Support:** Hindi, Tamil, Telugu, Malayalam, Kannada, English
 2.  **Adaptive Streaming:** Automatically adjusts video quality based on internet speed.
@@ -69,7 +63,7 @@ Solution:
 5.  **Parental Controls:** Age-rating based content filtering.
 6.  **Cross-Platform Availability:** Mobile, Laptop, Smart TV, Tablet
 
--   **Case Study: Content Strategy Analysis of Hotstar OTT Platform**
+## **Case Study: Content Strategy Analysis of Hotstar OTT Platform**
 
 **Problem Statement:**
 
@@ -84,7 +78,7 @@ This study aims to analyse Hotstar’s content catalog to identify:
 
 The objective is to determine whether the platform’s current content composition supports long-term user engagement and competitiveness or reveals strategic imbalances that may impact its market position.
 
--   **Dataset Overview**
+##  **Dataset Overview**
 
 This dataset contains metadata of TV Shows and Movies available on Disney+ Hotstar. It includes details such as title, genre, release year, language, content type, and other descriptive attributes.
 
@@ -95,7 +89,7 @@ This dataset contains metadata of TV Shows and Movies available on Disney+ Hotst
 5.  Dataset link: [link](https://www.kaggle.com/datasets/goelyash/disney-hotstar-tv-and-movie-catalog)
 6.  Dataset size: 1.4 MB
 
--   **Dataset Structure**
+##  **Dataset Structure**
 
 The dataset contains metadata-level information (not streaming content). Each row represents one movie or TV show.
 
@@ -120,11 +114,11 @@ Below is a detailed explanation of common attributes in the dataset:
 |  | **episodes** | Numeric | Number of episodes of tv show. |
 |  | **types** | Categorical | Content is Tv show or Movie. |
 
--   **Data Wrangling Implementation on Dataset**
+##  **Data Wrangling Implementation on Dataset**
 
 The complete data preprocessing, cleaning, duplicate handling, feature engineering, and transformation steps were implemented using Python (Pandas, NumPy) in Jupyter Notebook. The full implementation is attached as a supplementary document.\[here\]
 
--   **Key Findings & Interpretation**
+##  **Key Findings & Interpretation**
 
 Below is a detailed explanation of Key findings of the dataset:
 
@@ -137,11 +131,11 @@ Below is a detailed explanation of Key findings of the dataset:
 -   Movies form nearly **66% of total content**.
 -   TV shows represent about **34%**.
 
-1.  **Business Insight:**
+2.  **Business Insight:**
 
 Hotstar is movie-dominant but still maintains a strong TV presence.
 
-1.  **Strategic Risk:**
+3.  **Strategic Risk:**
 
 OTT competitors like Netflix focus heavily on long-form series to increase user retention.  
 Movie-heavy catalog may reduce binge-driven engagement.
@@ -163,13 +157,13 @@ Movie-heavy catalog may reduce binge-driven engagement.
 -   Platform heavily targets teen & young adult audience.
 -   Very limited strictly adult (A-rated) content.
 
-1.  **Business Insight:** Hotstar positions itself as:
+2.  **Business Insight:** Hotstar positions itself as:
 
 -   Family-friendly
 -   Youth-focused
 -   Mass Indian audience platform
 
-1.  **Problem:**
+3.  **Problem:**
 
 Competitors are investing in bold adult web series, attracting urban premium users.
 
@@ -183,15 +177,16 @@ Competitors are investing in bold adult web series, attracting urban premium use
 -   Content heavily skewed toward emotional and narrative-driven formats.
 -   Low presence of documentary and sports genres.
 
-1.  **Business Insight:**
+2.  **Business Insight:**
 
 Hotstar aligns strongly with Indian audience preference for drama.
 
-1.  **Strategic Risk:** Over-dependence on Drama may:
+3.  **Strategic Risk:** Over-dependence on Drama may:
 
 -   Reduce genre diversity
 -   Limit audience expansion
 -   Increase content saturation
+- 
 ## D.  **Yearly Content Growth Trend**
 
 **![](images/trends-line-of-Yearly-distribution-of-type-of-shows.png)**
@@ -204,48 +199,45 @@ Hotstar aligns strongly with Indian audience preference for drama.
 -   Reflects OTT boom and pandemic-driven streaming surge.
 -   Peak around 2020–2022
 
-1.  **Business Insight:**
+2.  **Business Insight:**
     -   **Movie-Dominant Strategy:** Movies consistently outnumber TV shows. Growth strategy focused on catalog expansion rather than original TV dominance.
     -   **Reactive TV Show Growth:** TV content surged mainly after 2016.
-2.  **Strategic Risk:** Recent OTT trend favours:
+      
+3.  **Strategic Risk:** Recent OTT trend favours:
 
 -   High-quality original series
 -   Exclusive content
 -   Franchise-based storytelling
 
--   **Core Strategic Problems Identified**
+  ## **Core Strategic Problems Identified**
 
 Based on Hotstar movie and TV shows data analysis, we find following major strategic problems which they are facing:
 
 1.  **Problem 1: Over-Dependence on Drama:**
 
-They are heavily concentration in one genre, due to which it may:
+    They are heavily concentration in one genre, due to which it may:
+        -   Limit audience diversification
+        -   Reduce global appeal
 
--   -   Limit audience diversification
-    -   Reduce global appeal
+2.  **Problem 2: Movie-Dominant Catalog:**
 
-1.  **Problem 2: Movie-Dominant Catalog:**
+    Movies are:
+        -   Shorter engagement cycles
+        -   Lower retention compared to series
+    
+    Whereas TV shows are:
+        -   Drive binge behavior
+        -   Improve subscription stickiness
+    
+    OTT success today depends on:
+        -   Long-form series
+        -   Multi-season engagement
 
-Movies are:
+3.  **Problem 3: Limited Adult Premium Content:**
 
--   -   Shorter engagement cycles
-    -   Lower retention compared to series
+    Age rating analysis shows majority youth-friendly content, which are Limited bold, urban-focused series. Comparatively, other competitors target urban millennials more aggressively.
 
-Whereas TV shows are:
-
--   -   Drive binge behavior
-    -   Improve subscription stickiness
-
-OTT success today depends on:
-
--   Long-form series
--   Multi-season engagement
-
-1.  **Problem 3: Limited Adult Premium Content:**
-
-Age rating analysis shows majority youth-friendly content, which are Limited bold, urban-focused series. Comparatively, other competitors target urban millennials more aggressively.
-
--   **Strategic Recommendations**
+##   **Strategic Recommendations**
 
 Following are some strategic recommendations to solve problem which are identified above:
 
@@ -253,23 +245,19 @@ Following are some strategic recommendations to solve problem which are identifi
 2.  **Strengthen Long-Running Series Production:** Encourage multi-season originals.
 3.  **Balance Movie-TV Ratio:** Move toward engagement-based strategy.
 4.  **Expand Genre Diversity**
+    Invest in:
+    -   Thriller
+    -   Documentary
+    -   Sci-fi
+    -   International collaborations
 
-Invest in:
+5.  **Improve Metadata Quality**
+    Better content tagging enhances AI recommendations.
 
--   Thriller
--   Documentary
--   Sci-fi
--   International collaborations
+6.  **Balance Age Segmentation**
+    Add selective premium adult originals to compete with Netflix-like platforms
 
-1.  **Improve Metadata Quality**
-
-Better content tagging enhances AI recommendations.
-
-1.  **Balance Age Segmentation**
-
-Add selective premium adult originals to compete with Netflix-like platforms
-
--   **Conclusion**
+##   **Conclusion**
 
 Disney+ Hotstar represents the transformation of traditional television into digital streaming in India. It successfully combined regional content dominance, Global Disney branding, Live sports scalability. The platform solved major accessibility and affordability issues in Indian entertainment, making digital streaming mainstream.
 
