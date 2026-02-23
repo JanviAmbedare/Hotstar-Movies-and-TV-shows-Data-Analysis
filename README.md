@@ -2,7 +2,7 @@
 
 # Disney+ Hotstar
 
-![A blue square with white text Description automatically generated](disney logo.png)
+![disney logo.png](disney logo.png)
 
 **Data Analysis Report**
 
