@@ -2,7 +2,7 @@
 
 # Disney+ Hotstar
 
-![disney logo.png](disney logo.png)
+![disney logo.png](images/disney logo.png)
 
 **Data Analysis Report**
 
