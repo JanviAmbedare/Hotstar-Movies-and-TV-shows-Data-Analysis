@@ -2,7 +2,7 @@
 
 # Disney+ Hotstar
 
-![disney logo.png](images/disney logo.png)
+![disney logo.png](images/disney_logo.png)
 
 **Data Analysis Report**
 
@@ -128,9 +128,9 @@ The complete data preprocessing, cleaning, duplicate handling, feature engineeri
 
 Below is a detailed explanation of Key findings of the dataset:
 
--   1.  **Content Type Distribution**
+## A.  **Content Type Distribution**
 
-**![](./README_images/image-002.png)**
+**![](images/Distribution-based-on-type-of-show.png)**
 
 1.  **Interpretation:**
 
@@ -146,9 +146,9 @@ Hotstar is movie-dominant but still maintains a strong TV presence.
 OTT competitors like Netflix focus heavily on long-form series to increase user retention.  
 Movie-heavy catalog may reduce binge-driven engagement.
 
--   1.  **Age-Based Content Distribution**
+## B.  **Age-Based Content Distribution**
 
-**![](./README_images/image-003.png)**
+**![](images/count-of-show-based-on-age-limit.png)**
 
 -   **U (Universal):** Suitable for all age groups; family-friendly with no restricted content
 -   **U/A 7+:** Suitable for ages 7 and above.
@@ -173,9 +173,9 @@ Movie-heavy catalog may reduce binge-driven engagement.
 
 Competitors are investing in bold adult web series, attracting urban premium users.
 
-1.  **Genre-Based Content Distribution**
+## C.  **Genre-Based Content Distribution**
 
-**![](./README_images/image-004.png)**
+**![](images/Genre-based-distribution.png)**
 
 1.  **Interpretation:**
 
@@ -192,9 +192,9 @@ Hotstar aligns strongly with Indian audience preference for drama.
 -   Reduce genre diversity
 -   Limit audience expansion
 -   Increase content saturation
-    1.  **Yearly Content Growth Trend**
+## D.  **Yearly Content Growth Trend**
 
-**![](./README_images/image-005.png)**
+**![](images/trends-line-of-Yearly-distribution-of-type-of-shows.png)**
 
 1.  **Interpretation:**
 
